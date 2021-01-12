@@ -1,0 +1,31 @@
+body {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+}
+#outer_box {
+  background-color: bisque;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border: 4px solid black;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#center_box {
+  background-color: teal;
+  width: 300px;
+  height: 70px;
+  margin: 10px;
+  border: 4px dashed white;
+}
+.small_box {
+  background-color: teal;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border: 4px solid white;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+  </head>
+<body>
+    <h1 id="Create">
+        <strong>Create An Account</strong>
+    </h1>
+    <form>
+        <div>
+            <label id="FirstName">
+                First name
+            <input type="text" placeholder="First Name" required  />
+            </label>
+        </div>
+        <div>
+            <label id="LastName">
+                Last name
+            <input  type="text" placeholder="Last Name" required />
+            </label>
+        </div>
+        <div>
+            <label id="Email">
+                Email
+            <input type="email" placeholder="Email" required  />
+            </label>
+        </div>
+        <div>
+            <label id="UserName">
+                Username
+            <input type="text" placeholder="Username" required />
+            </label>
+        </div>
+        <div>
+            <label id="Password">
+                Password
+            <input type="password" placeholder="Password" minlength="10" required/>
+            </label>
+        </div>
+        <div>
+            <label id="BirthDate">
+                Birth date
+                <input type="date" required />
+            </label>
+        </div>
+        <div>
+            <label id="Happy">
+                How happy are you?
+                <input type="range" list="tickmarks" min="0" max="11" />
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                    <option value="11"></option>
+                </datalist>
+            </label>
+        </div>
+        <div>
+            <label id="YourColor">
+                What is your fav.color?
+            <input type="color" />
+            </label>
+        </div>
+        <div>
+            <button id="button" type="submit">
+                Create Account
+            </button>
+        </div>
+    </form>
+</body>
+</html>
