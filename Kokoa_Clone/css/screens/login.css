@@ -39,7 +39,7 @@
 }
 #login-form input[type="submit"] {
   background-color: var(--yellow);
-  cursor: poiner;
+  cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
 }
