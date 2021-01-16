@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import 'reset.css';
+body {
+	font-family: 'Balsamiq Sans', cursive;
+	background: radial-gradient(circle, #f2f2f5, #f7f7f7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	font-weight: 700;
+	font-size: 22px;
+	opacity: 0.8;
+}
+h4 {
+	font-size: 15px;
+}
+h6 {
+	font-size: 12px;
+	color: grey;
+	opacity: 0.6;
+}
+.container {
+	width: 270px;
+	height: 590px;
+	background-color: white;
+	margin: 50px;
+	border-radius: 25px;
+	box-sizing: border-box;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav {
+	width: 220px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list_main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#main_pic1 {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 10px 5px #ffded4;
+}
+#list_main__text {
+	margin-top: 30px;
+}
+#list_main__subtext {
+	margin-top: 10px;
+	font-weight: 700;
+	opacity: 0.6;
+}
+.list_button {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.list_button button {
+	width: 90px;
+	height: 35px;
+	border-radius: 17.5px;
+	border: none;
+}
+.list_button > button:first-child {
+	background-color: #2f2f32;
+	color: #a3a3a6;
+	font-size: 12px;
+	font: bolder;
+}
+.list_button > button:last-child {
+	background-color: #ffffff;
+	color: #a3a3a6;
+	font-size: 13px;
+	font: bolder;
+}
+.list_button i {
+	color: #222222;
+}
+.list_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+}
+.playlist {
+	width: 250px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 25px;
+}
+.playlist__pic {
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+.playlist div > h6 {
+	font-size: 12px;
+}
+.playlist div > h4 {
+	margin-top: 5px;
+	opacity: 0.6;
+	font-weight: 700;
+}
+.playlist i {
+	color: gray;
+}
+.small_play {
+	margin-top: 30px;
+	width: 250px;
+	height: 50px;
+	border-radius: 25px;
+	box-sizing: border-box;
+	background-color: #222222;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.small_play > div {
+	color: white;
+}
+.small_play > div > h4 {
+	margin-top: 6px;
+	font-size: 13px;
+	opacity: 0.7;
+}
+.small_play > div:last-child {
+	width: 40%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.music_play {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#music_play__pic {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 50px 0px #ffa086;
+}
+.music_play > h1 {
+	margin-top: 50px;
+	font-size: 22px;
+}
+.music_play > h4 {
+	margin-top: 12px;
+	font-size: 13px;
+	color: #b6b7b6;
+}
+.music_time {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.music_time > div {
+	margin-top: 30px;
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.music_time > div > span {
+	font-size: 11px;
+	color: #b6b7b6;
+	opacity: 0.8;
+}
+input[type='range']:focus {
+	outline: none;
+}
+input[type='range'] {
+	background: transparent;
+	background: #eaeaea;
+	height: 4px;
+	border-radius: 2px;
+}
+input[type='range']::-webkit-slider-thumb {
+	cursor: grab;
+}
+.music_time > input {
+	width: 200px;
+}
+.music_button {
+	margin-top: 40px;
+	width: 190px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
