@@ -97,6 +97,10 @@ h6 {
 	align-items: center;
 	margin-top: 25px;
 }
+.playlist:nth-child(2) {
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 0px #dbd8d8;
+}
 .playlist__pic {
 	width: 35px;
 	height: 35px;
