@@ -1,0 +1,15 @@
+.dotdot {
+  color: tomato;
+  font-size: 28px;
+  font-weight: 600;
+}
+.nav__dot {
+  position: absolute;
+  left: 30px;
+  bottom: 15px;
+}
+.screen-header__dot {
+  position: absolute;
+  right: -8px;
+  bottom: 22px;
+}
