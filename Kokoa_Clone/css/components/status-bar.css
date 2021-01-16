@@ -21,6 +21,6 @@
   justify-content: flex-end;
   align-items: center;
 }
-.status-bar__column.fas fa-battery-full {
+.status-bar__column.fas fa-battery-full fa-lg {
   margin: 0px 5px;
 }
